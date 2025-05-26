@@ -14,12 +14,12 @@ Aplikasi web sederhana menggunakan **Laravel (PHP)** untuk frontend/backend dan 
 - Simpan riwayat konversi ke database dan tampilkan di halaman upload
 - Download hasil konversi gambar
 
----
-
 ## 📦 Struktur Folder Penting
 
 projek-final-web2/
+
 │
+
 ├── laravel/
 │ ├── app/
 │ │ ├── Http/
@@ -49,30 +49,29 @@ projek-final-web2/
 cd projek-final-web2/laravel
 ```
 
-# Install dependensi Laravel
+#### Install dependensi Laravel
 ```
 composer install
 ```
 
-# Copy file env dan generate key
+#### Copy file env dan generate key
 ```
 cp .env.example .env
 php artisan key:generate
 ```
 
-# Sesuaikan konfigurasi database di file .env
-# Lalu jalankan migrasi database
+#### Sesuaikan konfigurasi database di file .env lalu jalankan migrasi database
 ```
 php artisan migrate
 ```
 
-# Pastikan folder penyimpanan hasil ada dan punya izin tulis
+#### Pastikan folder penyimpanan hasil ada dan punya izin tulis
 ```
 mkdir -p public/gambar_asli public/gambar_hasil
 chmod -R 775 public/gambar_asli public/gambar_hasil
 ```
 
-# Jalankan server Laravel
+#### Jalankan server Laravel
 ```
 php artisan serve
 ```
@@ -83,19 +82,19 @@ php artisan serve
 cd projek-final-web2/python
 ```
 
-# Buat virtual environment (opsional)
+#### Buat virtual environment (opsional)
 ```
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 ```
 
-# Install library yang dibutuhkan
+#### Install library yang dibutuhkan
 ```
 pip install flask opencv-python
 ```
 
-# Jalankan server Flask
+#### Jalankan server Flask
 ```
 python python-api.py
 ```
