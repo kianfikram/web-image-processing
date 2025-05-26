@@ -121,16 +121,15 @@ python python-api.py
 
 ## 🚀 Cara Menggunakan
 
-1. Akses Laravel di browser: http://127.0.0.1:8000
-2. Pilih gambar dan jenis proses (grayscale, biner, negatif)
-3. Klik Proses Gambar
-4. Gambar akan dikirim ke Python, diproses, dan ditampilkan
-5. Halaman hasil menampilkan:
-  a. Gambar hasil proses
-  b. Tombol Download
-  c. Tombol kembali ke halaman upload
-
-6.Riwayat semua konversi tampil di halaman utama
+- Akses Laravel di browser: http://127.0.0.1:8000
+- Pilih gambar dan jenis proses (grayscale, biner, negatif)
+- Klik Proses Gambar
+- Gambar akan dikirim ke Python, diproses, dan ditampilkan
+- Halaman hasil menampilkan:
+  - Gambar hasil proses
+  - Tombol Download
+  - Tombol kembali ke halaman upload
+- Riwayat semua konversi tampil di halaman utama
 
 ## 🧠 Teknologi yang Digunakan
 
