@@ -6,6 +6,7 @@ Aplikasi web sederhana menggunakan **Laravel (PHP)** untuk frontend/backend dan 
 - Biner (thresholding)
 - Negatif
 
+
 ## 📁 Fitur Utama
 
 - Upload gambar dan pilih jenis konversi
@@ -21,25 +22,45 @@ projek-final-web2/
 │
 
 ├── laravel/
+
 │ ├── app/
+
 │ │ ├── Http/
+
 │ │ │ └── Controllers/
+
 │ │ │ └── KonversiController.php
+
 │ │ └── Models/
+
 │ │ └── Gambar.php
+
 │ ├── public/
+
 │ │ ├── gambar_asli/
+
 │ │ └── gambar_hasil/
+
 │ ├── resources/
+
 │ │ └── views/
+
 │ │ ├── upload.blade.php
+
 │ │ └── hasil.blade.php
+
 │ ├── routes/
+
 │ │ └── web.php
+
 │ └── .env
+
 │
+
 └── python/
+
 └── python-api.py
+
 
 ## ⚙️ Langkah Instalasi
 
