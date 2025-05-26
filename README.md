@@ -6,7 +6,6 @@ Aplikasi web sederhana menggunakan **Laravel (PHP)** untuk frontend/backend dan 
 - Biner (thresholding)
 - Negatif
 
-
 ## 📁 Fitur Utama
 
 - Upload gambar dan pilih jenis konversi
